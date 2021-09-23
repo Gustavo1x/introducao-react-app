@@ -1,4 +1,4 @@
-:root{
+:root {
     --delete: rgb(220, 0, 59);
     --edit: rgb(0, 189, 155);
     --send: rgb(0, 108, 203);
@@ -8,33 +8,43 @@
     --branco: #F2F2F2;
 }
 
-.app{
+.app {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-fieldset{
+fieldset {
     border-radius: 5px;
 }
-.formulario{
+
+.formulario {
     width: 800px;
     display: flex;
     justify-content: space-around;
 }
 
-.inputPadrao{
+.inputPadrao {
     margin: 10px;
     padding: 10px;
     border-radius: 5px;
 }
 
-.enviar{
- background: var(--send);
- color: var(--branco);
- font-size: 14px;
- padding: 10px;
- margin: 10px;
- border: none;
- border-radius: 5px;
+.enviar {
+    background: var(--send);
+    color: var(--branco);
+    font-size: 14px;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.tabela {
+    border: 2px solid black;
+
+}
+
+th {
+    background-color: var(--verde-escuro);
 }
