@@ -1,19 +1,18 @@
 import Card from './components/card'
 
 const App = () => {
-  return (
-    <div className="app">
-      <Card titulo="Titulo 1" texto="ola mundo" />
-      <Card titulo="Titulo 2" texto="pokemon" />
-      <Card titulo="Titulo 3" texto="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Integer vitae aliquam metus, vitae laoreet purus.
-                Donec tincidunt nunc et interdum vehicula.
-                Nullam cursus massa nec fermentum lacinia.
-                Nulla ac odio maximus, bibendum justo eget, varius massa.
-                Integer mollis nisi ut accumsan efficitur. Sed placerat nulla eget ullamcorper porta. Praesent vel molestie augue, ut auctor felis. Suspendisse sodales ante a felis cursus vulputate. Aenean non ipsum sed nunc sodales tristique. Maecenas nibh libero," />
-      <Card titulo="Titulo 4" />
-    </div>
-  );
+  return (<div className="app">
+    <form className="formulario">
+      <fieldset>
+        <legend>FORMULARIO DE CADASTRO</legend>
+        <input className='inputPadrao' type='text' required placeholder="Nome:"></input>
+        <input className='inputPadrao' type='email' required placeholder="Email:"></input>
+        <input className='inputPadrao' type='password' required placeholder="password:"></input>
+        <button className="enviar" id='botao'>Enviar</button>
+      </fieldset>
+    </form>
+  </div>);
 }
+
 
 export default App;
