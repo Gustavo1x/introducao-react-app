@@ -16,14 +16,13 @@ table,
 td,
 th {
     width: 100%;
-    border: 1px solid black;
+    border: 1px solid rgb(187, 184, 184);
     padding: 10px;
 }
 
 th {
     background-color: var(--verde-escuro);
     color: var(--branco);
-    text-align: start;
     padding: 10px;
 }
 

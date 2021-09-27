@@ -1,12 +1,9 @@
 
-import React from 'react';
 import './tabela.css'
 import Tabelatr from '../tabelatr'
 
 const Tabela = ({dados}) =>{
 return(
-
-
 
 <div className="tabela">
     <table id="table">

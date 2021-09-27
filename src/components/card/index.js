@@ -2,25 +2,27 @@ import './card.css'
 
 const Card = () => {
 
-  const alerta = (alertando)=>{
-    alert (`Adicionado novo formulario ${alertando.target}`)
+  const alerta = (alertando) => {
+    alert(`Adicionado novo formulario ${alertando.target}`)
   }
 
-    return (
-        <div className="card">
-              <form className="formulario">
-      <fieldset>
-        <legend>FORMULARIO DE CADASTRO</legend>
-        <input className='inputPadrao' type='text' required placeholder="Nome:"></input>
-        <input className='inputPadrao' type='email' required placeholder="Email:"></input>
-        <input className='inputPadrao' type='password' required placeholder="Password:"></input>
-        <button className="enviar" id='botao' onClick={alerta}>Enviar</button>
-      </fieldset>
+  return (
+    <div>
+      <form className="formulario">
+        <fieldset>
+          <legend>FORMULARIO DE CADASTRO</legend>
+          <div className='espacamento'>
+            <input className='inputPadrao' type='text' required placeholder="Nome:"></input>
+            <input className='inputPadrao' type='email' required placeholder="Email:"></input>
+            <input className='inputPadrao' type='password' required placeholder="Password:"></input>
+            <button className="enviar" type='submit' id='botao' onClick={alerta}>Enviar</button>
+          </div>
+        </fieldset>
 
-    </form>
-            
-        </div>
-    );
+      </form>
+
+    </div>
+  );
 }
 
 export default Card;

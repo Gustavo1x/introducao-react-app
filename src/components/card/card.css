@@ -29,3 +29,7 @@ fieldset {
     background-color: blue;
     cursor: pointer;
 }
+
+.espacamento{
+    align-items: baseline;
+}
