@@ -1,0 +1,32 @@
+[
+    
+    {
+        "id":1,
+        "nome":"Joao",
+        "email":"joao123@gmail.com",
+        "senha": "1123999123"
+    },
+
+    {
+        "id":2,
+        "nome":"Maria",
+        "email":"maria123@gmail.com",
+        "senha": "oasis99123"
+    },
+
+    {
+        "id":3,
+        "nome":"Ariel",
+        "email":"ariel999@gmail.com",
+        "senha": "pposd98823"
+    },
+    
+    {
+        "id":4,
+        "nome":"pikachu",
+        "email":"pikachu123@gmail.com",
+        "senha": "p333d98823"
+    }
+
+
+]

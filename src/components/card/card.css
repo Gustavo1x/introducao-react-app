@@ -22,4 +22,10 @@ fieldset {
     margin: 10px;
     border: none;
     border-radius: 5px;
+
+}
+
+.enviar:hover {
+    background-color: blue;
+    cursor: pointer;
 }

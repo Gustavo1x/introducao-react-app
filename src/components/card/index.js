@@ -1,6 +1,11 @@
 import './card.css'
 
-const Card = ({ titulo, texto }) => {
+const Card = () => {
+
+  const alerta = (alertando)=>{
+    alert (`Adicionado novo formulario ${alertando.target}`)
+  }
+
     return (
         <div className="card">
               <form className="formulario">
@@ -9,7 +14,7 @@ const Card = ({ titulo, texto }) => {
         <input className='inputPadrao' type='text' required placeholder="Nome:"></input>
         <input className='inputPadrao' type='email' required placeholder="Email:"></input>
         <input className='inputPadrao' type='password' required placeholder="Password:"></input>
-        <button className="enviar" id='botao'>Enviar</button>
+        <button className="enviar" id='botao' onClick={alerta}>Enviar</button>
       </fieldset>
 
     </form>

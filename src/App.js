@@ -1,11 +1,13 @@
 import Card from './components/card'
-import Tabela from './components/card/tabela'
+import Tabela from './components/tabela'
+import db from './components/db.json'
 
 const App = () => {
   return (
   <div className="app">
  <Card />
-<Tabela />
+<Tabela dados={db}/>
+
   </div>
   
   )

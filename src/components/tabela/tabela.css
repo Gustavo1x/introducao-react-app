@@ -1,0 +1,32 @@
+.tabela {
+    width: 800px;
+    margin: 0 auto;
+}
+
+#table {
+    border-collapse: collapse;
+}
+
+tr:nth-child(odd) {
+    background-color: var(--cinza);
+}
+
+
+table,
+td,
+th {
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+th {
+    background-color: var(--verde-escuro);
+    color: var(--branco);
+    text-align: start;
+    padding: 10px;
+}
+
+.colSpan {
+    text-align: center;
+}

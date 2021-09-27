@@ -1,0 +1,28 @@
+.delete,
+.editar {
+    display: block;
+    margin: auto;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: var(--branco);
+}
+
+.editar {
+    background-color: var(--edit);
+}
+
+.delete {
+    background-color: var(--delete);
+}
+
+.delete:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+.editar:hover {
+    background-color: green;
+    cursor: pointer;
+}

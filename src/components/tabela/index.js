@@ -1,5 +1,9 @@
+
+import React from 'react';
 import './tabela.css'
-const Tabela = () =>{
+import Tabelatr from '../tabelatr'
+
+const Tabela = ({dados}) =>{
 return(
 
 
@@ -16,14 +20,17 @@ return(
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <td>fulana da silva dutra</td>
-                <td>fulano@gmail.com</td>
-                <td>123abc</td>
-                <td><button className="editar" id='botao'>editar</button>
-                    <button className="delete" id='botao'>delete</button>
-                </td>
-            </tr>
+          {
+            dados.map(item=>(
+                <Tabelatr key={item.id}
+                id= {item.id}
+                nome={item.nome}
+                email={item.email}
+                senha={item.senha}
+
+                />
+            ))
+          }
         </tbody>
     </table>
 </div>
