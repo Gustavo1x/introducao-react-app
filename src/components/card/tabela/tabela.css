@@ -1,17 +1,3 @@
-:root {
-    --delete: rgb(220, 0, 59);
-    --edit: rgb(0, 189, 155);
-    --send: rgb(0, 108, 203);
-    --verde-escuro: #04AA6D;
-    --cinza: #DDDDDD;
-    --branco: #F2F2F2;
-}
-
-.app {
-    width: 100%;
-    font-family: sans-serif;
-}
-
 .tabela {
     width: 800px;
     margin: 0% auto;

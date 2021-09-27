@@ -1,19 +1,25 @@
+.formulario {
+    width: 800px;
+    padding-bottom: 20px;
+    margin: 0% auto;
+}
 
-.card {
-    border: 1px solid gray;
+fieldset {
     border-radius: 5px;
+}
+
+.inputPadrao {
     margin: 10px;
     padding: 10px;
+    border-radius: 5px;
 }
 
-.card h1 {
-    border-bottom: 1px solid gray;
-    margin-bottom: 10px;
-    padding-bottom: 5px;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-.card div {
-    text-align: justify;
+.enviar {
+    background: var(--send);
+    color: var(--branco);
+    font-size: 14px;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
 }
