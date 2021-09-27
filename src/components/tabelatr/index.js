@@ -2,9 +2,12 @@ import './tabelatr.css'
 
 const Tabelatr = ({id,nome,email,senha})=>{
 
-    const alerta = (elemento)=>{
+    const alerta1 = (elemento)=>{
+        alert (`Elemento adicionado ${elemento.target.value}`)
+    }
+    const alerta2 = (elemento)=>{
 
-        alert (`elemento adicionado ${elemento.target.value}`)
+        alert (`Elemento removido ${elemento.target.value}`)
 
     }
     return (
@@ -12,8 +15,8 @@ const Tabelatr = ({id,nome,email,senha})=>{
             <td>{nome}</td>
             <td>{email}</td>
             <td>{senha}</td>
-            <td><button onClick={alerta} value={id} className="editar">Editar</button></td>
-            <td><button onClick={alerta} value={id} className="delete">Delete</button></td>
+            <td><button onClick={alerta1} value={id} className="editar">Editar</button></td>
+            <td><button onClick={alerta2} value={id} className="delete">Delete</button></td>
         </tr>
     )
 
