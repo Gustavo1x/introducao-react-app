@@ -26,7 +26,13 @@
         "nome":"pikachu",
         "email":"pikachu123@gmail.com",
         "senha": "p333d98823"
-    }
+    },
 
+    {
+        "id":5,
+        "nome":"charmander",
+        "email":"charchar123@gmail.com",
+        "senha": "p333d98823"
+    }
 
 ]

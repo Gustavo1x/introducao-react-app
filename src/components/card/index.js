@@ -11,12 +11,12 @@ const Card = () => {
       <form className="formulario">
         <fieldset>
           <legend>FORMULARIO DE CADASTRO</legend>
-          <div className='espacamento'>
+          
             <input className='inputPadrao' type='text' required placeholder="Nome:"></input>
             <input className='inputPadrao' type='email' required placeholder="Email:"></input>
             <input className='inputPadrao' type='password' required placeholder="Password:"></input>
             <button className="enviar" type='submit' id='botao' onClick={alerta}>Enviar</button>
-          </div>
+          
         </fieldset>
 
       </form>

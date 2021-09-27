@@ -1,17 +1,23 @@
 .formulario {
     width: 800px;
     padding-bottom: 20px;
-    margin: 0% auto;
+    margin: 0 auto;
+
 }
 
 fieldset {
+
     border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+
 }
 
 .inputPadrao {
     margin: 10px;
     padding: 10px;
     border-radius: 5px;
+    outline: none;
 }
 
 .enviar {
@@ -30,6 +36,6 @@ fieldset {
     cursor: pointer;
 }
 
-.espacamento{
+.espacamento {
     align-items: baseline;
 }
